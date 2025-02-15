@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/trucanh21/git-test.git)
-- Live Site URL: [Add live site URL here](https://git-test-no6y.vercel.app/)
+- Solution URL: [solution URL here](https://github.com/trucanh21/git-test.git)
+- Live Site URL: [live site URL here](https://git-test-no6y.vercel.app/)
 
 ## My process
 
@@ -81,4 +81,4 @@ h1:hover {
 
 ## Author
 
-- Website - [Add your name here](https://github.com/trucanh21)
+- Website - [Lan Ta](https://github.com/trucanh21)
