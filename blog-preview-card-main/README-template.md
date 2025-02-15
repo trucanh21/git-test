@@ -7,7 +7,7 @@
     <a href="https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS" target="_blank"><strong>View Challenge</strong></a>
     <br />
     <br />
-    <a href="#" target="_blank">Live Demo</a>
+    <a href="https://git-test-no6y.vercel.app/" target="_blank">Live Demo</a>
   </p>
 </div>
 
@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/trucanh21/git-test.git)
+- Live Site URL: [Add live site URL here](https://git-test-no6y.vercel.app/)
 
 ## My process
 
