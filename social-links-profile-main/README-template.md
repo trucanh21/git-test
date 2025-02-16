@@ -7,7 +7,7 @@
     <a href="https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS" target="_blank"><strong>View Challenge</strong></a>
     <br />
     <br />
-    <a href="#" target="_blank">Live Demo</a>
+    <a href="https://git-test-ftrm.vercel.app/" target="_blank">Live Demo</a>
   </p>
 </div>
 
@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution URL here](https://github.com/trucanh21/git-test.git)
-- Live Site URL: [live site URL here](#)
+- Live Site URL: [live site URL here](https://git-test-ftrm.vercel.app/)
 
 ## My process
 
