@@ -1,0 +1,169 @@
+@font-face {
+    font-family: "Figtree";
+    src: url("../assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
+    font-weight: 400, 700;
+}
+
+:root {
+    /* color */
+    --background-primary: hsl(31.11, 52.94%, 90%);
+    --font-Preparation-time: hsl(324.35, 36.9%, 36.67%);
+    --font-h2: hsl(14.46, 44.86%, 36.27%);
+    --font-total: hsl(31.76, 9.83%, 33.92%);
+
+    /* font */
+    --font-famil: "Figtree";
+    --font-family-Outfit: "Outfit", sans-serif;
+    --font-wght-700: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Thiết lập cơ bản cho body */
+body {
+    font-family: var(--font-famil);
+    background-color: var(--background-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* Không nên dùng height cố định để tránh tràn nội dung */
+    min-height: 100vh;
+    width: 100%;
+    margin: 40px;
+}
+
+/* Container chính */
+.container {
+    width: 736px;
+    /* Sử dụng height tự động để nội dung tự co giãn */
+    height: auto;
+    padding: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+/* Hình ảnh */
+.container img {
+    width: 100%;
+    max-width: 656px;
+    height: auto;
+    border-radius: 10px;
+    align-self: center;
+}
+
+/* Nội dung span */
+.container span {
+    font-weight: 400;
+    /* Sử dụng 400 thay vì 100px (không phải giá trị hợp lệ) */
+    font-family: 'young-serif';
+    margin-bottom: 1rem;
+}
+
+/* Section Preparation_time */
+.Preparation_time {
+    background-color: hsl(326.67, 100%, 98.24%);
+    font-family: 'young-serif';
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+/* Heading h3 */
+h3 {
+    font-size: 1.3rem;
+    font-family: 'young-serif';
+    color: var(--font-Preparation-time);
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+}
+
+/* List styles */
+li {
+    font-family: 'young-serif';
+    /* Sử dụng font-weight: 400 hoặc 700 thay vì giá trị không hợp lệ 100px */
+    font-weight: 400;
+    padding-bottom: 15px;
+    padding-left: 1rem;
+}
+
+ul {
+    margin: 0;
+}
+
+/* In đậm marker */
+li::marker {
+    font-weight: 900;
+}
+
+/* Tô màu marker cho ol, ul, và h2 */
+ol li::marker,
+h2,
+ul li::marker {
+    color: var(--font-h2);
+}
+
+/* Dành cho đoạn văn trong li nếu có */
+ol>li>p,
+ul>li>p {
+    margin-left: 15px !important;
+}
+
+/* Nutrition content */
+.Nutrition_content {
+    margin-bottom: 10px;
+}
+
+/* Nội dung span chung */
+span {
+    font-weight: 400;
+}
+
+/* Table */
+td {
+    font-weight: 400;
+    font-family: 'young-serif';
+}
+
+.custom-td {
+    font-weight: 700;
+}
+
+/* Media Query dành cho thiết bị mobile */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+        margin: 20px 0;
+    }
+
+    .container img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    li {
+        padding-left: 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    td {
+        font-size: 0.9rem;
+    }
+}
